@@ -32,6 +32,7 @@
   <preference name="phonegap-version" value="cli-6.5.0" />
   <preference name="Fullscreen" value="true" />
   <preference name="ShowTitle" value="True" />
-  <plugin name="org.apache.cordova.inappbrowser" spec="0.6.0" source="pgb" />
-  
+  <vs:plugin name="org.apache.cordova.inappbrowser" version="0.6.0" />
+  <vs:plugin name="org.apache.cordova.splashscreen" version="0.3.3" />
+  <vs:plugin name="org.apache.cordova.statusbar" version="0.1.8" />
 </widget>

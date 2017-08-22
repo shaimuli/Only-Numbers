@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" id="io.cordova.MobileFLS" version="1.0.0" xmlns="http://www.w3.org/ns/widgets">
-  <name>Only-Numbers</name>
-  <author href="http://cordova.io" email="dev@cordova.apache.org">Only-Numbers</author>
+  <name>MobileFLS</name>
+   <description>FLS delek</description>
+  <author href="http://cordova.io" email="dev@cordova.apache.org">Apache Cordova Team </author>
   <content src="index.html" />
   <icon src="icon.png" />
 
@@ -32,6 +33,5 @@
   <preference name="phonegap-version" value="cli-6.5.0" />
   <preference name="Fullscreen" value="true" />
   <preference name="ShowTitle" value="True" />
-  <plugin name="cordova-plugin-device" spec="^1.1.0" />
-  <plugin name="cordova-plugin-device" spec="https://github.com/apache/cordova-plugin-device.git#1.0.0" />
+  <plugin name="org.apache.cordova.inappbrowser" spec="0.6.0" source="pgb" />
 </widget>

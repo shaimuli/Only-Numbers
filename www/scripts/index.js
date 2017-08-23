@@ -5,7 +5,7 @@
 (function () {
     "use strict";
 
-    //document.addEventListener( 'deviceready', onDeviceReady.bind( this ), false );
+    document.addEventListener( 'deviceready', onDeviceReady.bind( this ), false );
 
     function onDeviceReady() {
         var ref = window.open('https://app.only-numbers.com/', '_self', 'location=no');
